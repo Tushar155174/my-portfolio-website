@@ -82,11 +82,16 @@ nav a {
 .banner-paragraph {
   margin-bottom: 25px;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .about-section {
   padding: 130px;
   background: #fff8f3;
   border-radius: 10px;
-  margin: 130px 0;
+  margin: 130px;
 }
 .about-paragraph {
   color:#757575;
@@ -94,4 +99,11 @@ nav a {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }

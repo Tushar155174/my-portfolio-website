@@ -8,49 +8,90 @@ nav {
   align-items: center;
   margin: 0 200px;
 }
-.primary-text{
-    color: #FD6E0A;
+.primary-text {
+  color: #fd6e0a;
 }
 
-.primary-button{
-    border: 0;
-    border-radius: 5px;
-    background-color: #FD6E0A;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
-
+.primary-button {
+  border: 0;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+.section-tittle {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
 
-.site-tittle{
-    color:#181818;
-    font-size: 45px;
-    font-weight: 800;
-
+.site-tittle {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
 
-nav>ul{
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
-nav li{
-    list-style: none;
-    margin-right: 50px;
+nav li {
+  list-style: none;
+  margin-right: 50px;
 }
-nav a{
-    text-decoration: none;
-    color: #474747;
+nav a {
+  text-decoration: none;
+  color: #474747;
 }
 
-.header-area{
-    background-color: #FFF8F3;
+.header-area {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 620px;
 }
-.banner-area{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.banner-area {
+  padding: 30px 30px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 66vh;
 }
-.profile-picture{
-    width: 500px;
+.profile-picture {
+  height: 500px;
+  width: auto;
+}
+.banner-h3 {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-h1 {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-text {
+  max-width: 500px;
+}
+.banner-paragraph {
+  margin-bottom: 25px;
+}
+.about-section {
+  padding: 130px;
+  background: #fff8f3;
+  border-radius: 10px;
+  margin: 130px 0;
+}
+.about-paragraph {
+  color:#757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
